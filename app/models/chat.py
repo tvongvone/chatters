@@ -9,3 +9,4 @@ class Chat(db.Model):
 
     id = db.Column(db.Integer, primary_key = True)
     friendId = db.Column(db.Integer, nullable = False)
+    messages = db.Column(db.String)
